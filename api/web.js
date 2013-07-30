@@ -5,10 +5,10 @@ app.use(express.logger());
 // Mysql credentials
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
-  host     : '',
-  database : '',
-  user     : '',
-  password : '',
+  host     : 'healkdb.cff4ld4u4nak.us-east-1.rds.amazonaws.com',
+  database : 'healkdb',
+  user     : 'healkusr',
+  password : 'letZallTalk2013',
 });
 
 // Returns categories of ingredients
