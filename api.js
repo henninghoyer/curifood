@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 app.use(express.logger());
 
+
 // Mysql credentials
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
