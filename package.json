@@ -2,7 +2,7 @@
   "name": "node-js-sample",
   "version": "0.0.2",
   "description": "a sample node.js app for heroku",
-  "main": "api.js",
+  "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
